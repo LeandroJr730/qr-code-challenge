@@ -7,8 +7,10 @@
 body{
     background-color:hsl(212, 45%, 89%) ;
 }
+img, .box1{
+    border-radius: 15px;
+}
 .box1{
-    border-radius: 20px;
     background-color: hsl(0, 0%, 100%);
     position: fixed;
     height: 500px;
@@ -18,7 +20,10 @@ body{
     left:50%;
 }
 img{
-    border-radius: 20px;
+    height: 280px;
+    width: 280px;
+    top:3%;
+    left:7%;
     position:absolute;
 }
 #p1, #p2{
@@ -31,7 +36,7 @@ img{
     font-size: 22px;
     color: hsl(218, 44%, 22%);
     font-weight: 700;
-    padding-top:275px;
+    padding-top:300px;
 }
 #p2{
     font-size: 15px;
