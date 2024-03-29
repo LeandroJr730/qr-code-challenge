@@ -15,8 +15,8 @@ body{
     border-radius: 10px;
     height: 300px;
     width: 300px;
-    top:3%;
-    left:5%;
+    top: 0.8em;
+    left: 1.1em;
     position:absolute;
 }
 .title, .description{
