@@ -1,13 +1,7 @@
-.attribution { 
-    font-size: 11px; text-align: center; 
-}
-.attribution a {
-    color: hsl(228, 45%, 44%); 
-}
 body{
     background-color:hsl(212, 45%, 89%) ;
 }
-.box1{
+.container{
     background-color: hsl(0, 0%, 100%);
     border-radius: 18px;
     position: fixed;
@@ -17,7 +11,7 @@ body{
     top:50%;
     left:50%;
 }
-img{
+.qr-code{
     border-radius: 10px;
     height: 300px;
     width: 300px;
@@ -25,21 +19,27 @@ img{
     left:5%;
     position:absolute;
 }
-#p1, #p2{
+.title, .description{
     font-family:"Outfit", sans-serif;
     text-align: center;
     padding-left: 35px;
     padding-right: 35px;
 }
-#p1{
+.title{
     font-size: 22px;
     color: hsl(218, 44%, 22%);
     font-weight: 700;
     padding-top:310px;
 }
-#p2{
+.description{
     font-size: 15px;
     color: hsl(220, 15%, 55%);
     font-weight: 400;
+}
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a {
+    color: hsl(228, 45%, 44%); 
 }
 
